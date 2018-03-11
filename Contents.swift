@@ -2,7 +2,18 @@
 
 //Name: Erica Gutierrez
 //Coding Language: Swift 4.0
-//Assumptions: An empty string or space will return 0
+
+/*
+ Assumptions:
+
+ - An empty string or space will return 0
+ - Only integers are used/valid
+ - Operators were assigned to the interger/expression that followed.
+   If -, integer or expression assumed a negative sign. If +, integer/expression assumed a positive sign.
+   For calculations, additions was performed after integer sign assumption.
+   Ex: + 1  + 2 3. Expression (+1) is positive. Expression ( + 2 3) is positive and as well as each integer. Both had a + sign preceding.
+   After assumming their respective signs, calculations are done from left to right.
+ */
 
 
 import UIKit
